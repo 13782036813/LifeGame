@@ -5,6 +5,9 @@
     <img src = "../pics/logo.png">
     <p>Logo</p>
 </div>
+## 我做到了什么?
+1. 使用python实现了生命游戏，并使用numpy并行运算提高计算机利用率以此来支持大型网络
+2. 由生命游戏推演出生命起源的可能性
 
 ## 🦝 康威生命游戏规则
 核心规则（基于细胞周围8个邻居）
@@ -236,5 +239,21 @@ def insert_pattern(grid, pattern_name, position):
 ![](../pics/meet_beehive.gif)
 
 ![](../pics/meet_toad.gif)
+
+
+我又使用了六架高斯枪轰击六个blinker
+<div slign = 'center'>
+<img src = '../pics/输出.png'>
+</div>
+
+<div slign = 'center'>
+<img src = '../pics/attact.png'>
+</div>
+
+最终消亡
+<div slign = 'center'>
+<img src = '../pics/消亡.png'>
+</div>
+
 
 
