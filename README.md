@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 我的科技节作品
 <div slign = 'center'>
-    <img src = "../pics/logo.png">
+    <img src = "./pics/logo.png">
     <p>Logo</p>
 </div>
 ## 我做到了什么?
