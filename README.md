@@ -71,7 +71,7 @@ block = [
 ]
 ```
 <div slign='center'>
-    <img src = '../pics/block.png'>
+    <img src = './pics/block.png'>
 </div>
 
 2.蜂巢(beehive)
@@ -79,7 +79,7 @@ block = [
 beehive = [(0,1), (0,2), (1,0), (1,3), (2,1), (2,2)]
 ```
 <div slign='center'>
-    <img src = '../pics/beehive.png'>
+    <img src = './pics/beehive.png'>
 </div>
 
 ### 二、振荡器（Oscillators）
@@ -90,7 +90,7 @@ beehive = [(0,1), (0,2), (1,0), (1,3), (2,1), (2,2)]
 blinker = [(0,0), (1,0), (2,0)]  # 垂直方向 ↔ 水平方向交替
 ```
 <div slign='center'>
-    <img src = '../pics/blinker.png'>
+    <img src = './pics/blinker.png'>
 </div>
 
 2. 蟾蜍（Toad） - 周期2
@@ -101,7 +101,7 @@ toad = [
 ]
 ```
 <div slign='center'>
-    <img src = '../pics/toad.png'>
+    <img src = './pics/toad.png'>
 </div>
 
 3. 脉冲星（Pulsar） - 周期3
@@ -119,7 +119,7 @@ pulsar = [
 ]
 ```
 <div slign='center'>
-    <img src = '../pics/pulsar.png'>
+    <img src = './pics/pulsar.png'>
 </div>
 
 三、太空船（Spaceships）
@@ -134,7 +134,7 @@ glider = [
 ]
 ```
 <div slign='center'>
-    <img src = '../pics/glider.png'>
+    <img src = './pics/glider.png'>
 </div>
 
 2. LWSS（轻型飞船） - 每4代向右移动2格
@@ -147,7 +147,7 @@ lwss = [
 ]
 ```
 <div slign='center'>
-    <img src = '../pics/lwss.png'>
+    <img src = './pics/lwss.png'>
 </div>
 
 四、特殊结构
@@ -172,7 +172,7 @@ glider_gun = [
 ]
 ```
 
-![gosper_gun](../pics/gosper_gun.gif)
+![gosper_gun](./pics/gosper_gun.gif)
 
 ## 🧪分析
 既然已经有高斯枪的存在，就可以发送信号了，就像神经元一样.
@@ -235,25 +235,25 @@ def insert_pattern(grid, pattern_name, position):
 ## 😀经验分享
 高斯枪和“block”，“beehive”，“toad”对撞会清除它们
 
-![](../pics/clearBlock.gif)
+![](./pics/clearBlock.gif)
 
-![](../pics/meet_beehive.gif)
+![](./pics/meet_beehive.gif)
 
-![](../pics/meet_toad.gif)
+![](./pics/meet_toad.gif)
 
 
 我又使用了六架高斯枪轰击六个blinker
 <div slign = 'center'>
-<img src = '../pics/输出.png'>
+<img src = './pics/输出.png'>
 </div>
 
 <div slign = 'center'>
-<img src = '../pics/attact.png'>
+<img src = './pics/attact.png'>
 </div>
 
 最终消亡
 <div slign = 'center'>
-<img src = '../pics/消亡.png'>
+<img src = './pics/消亡.png'>
 </div>
 
 ## 📃参考资料
