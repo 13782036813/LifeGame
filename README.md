@@ -255,5 +255,7 @@ def insert_pattern(grid, pattern_name, position):
 <img src = '../pics/消亡.png'>
 </div>
 
+## 📃参考资料
+[wiki](https://conwaylife.com/wiki/Main_Page)
 
 
